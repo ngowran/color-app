@@ -1,12 +1,12 @@
 import { View, Text } from "react-native";
 import React from "react";
 
-const SettingsScreen = () => {
+const LearnColours = () => {
   return (
     <View>
-      <Text>SettingsScreen</Text>
+      <Text>Time to Learn!</Text>
     </View>
   );
 };
 
-export default SettingsScreen;
+export default LearnColours;

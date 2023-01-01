@@ -2,7 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import { createStackNavigator } from "@react-navigation/stack";
 import HomeScreen from "./screens/HomeScreen";
-import SettingsScreen from "./screens/SettingsScreen";
+import LearnColours from "./screens/LearnColours";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Ionicons from "react-native-vector-icons/Ionicons";
@@ -52,8 +52,8 @@ export default function App() {
         />
 
         <Tab.Screen
-          name="Settings"
-          component={SettingsScreen}
+          name="Learn"
+          component={LearnColours}
           options={{
             tabBarIcon: ({ color, size }) => (
               <Ionicons name="ios-settings" color={color} size={size} />
