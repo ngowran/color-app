@@ -6,7 +6,8 @@ const styles = require("../styles/globalStyle.js");
 export default function HomeScreen() {
     return (
         <View style={styles.container}>
-            <Text style={styles.heading}>Welcome to the Colour Learning App1</Text>
+            <Text style={styles.heading}>Welcome to our Colour Learning App!</Text>
+            <Text style={styles.text}>This app will help you learn the names of colours in English.</Text>
         </View>
     );
 }

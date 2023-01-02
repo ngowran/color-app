@@ -36,7 +36,7 @@ export default function App() {
     <NavigationContainer>
       <Tab.Navigator
         screenOptions={{
-          tabBarActiveTintColor: "#38639F",
+          tabBarActiveTintColor: "#6A2DC6",
           tabBarInactiveTintColor: "gray",
           tabBarStyle: [{ display: "flex" }, null],
         }}
@@ -56,7 +56,7 @@ export default function App() {
           component={LearnColours}
           options={{
             tabBarIcon: ({ color, size }) => (
-              <Ionicons name="ios-settings" color={color} size={size} />
+              <Ionicons name="ios-school-outline" color={color} size={size} />
             ),
           }}
         />
