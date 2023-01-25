@@ -1,6 +1,8 @@
 # Mobile App - Help Children Learn Colours
 
-Made with React Native App
+React Native
+
+Cross platform mobile application, provides fun, interactive educational games for children to learn colours in multiple languages!
 
 ## Getting Started
 
